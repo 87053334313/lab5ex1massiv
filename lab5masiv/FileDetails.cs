@@ -64,7 +64,7 @@ namespace lab5masiv
             int size = (int)stream.Length;
 
             char[] contents = new char[size];
-            Summaraize(contents);
+           
 
             for (int i = 0; i < size; i++)
             {
@@ -79,6 +79,7 @@ namespace lab5masiv
                 Console.Write(ch);
 
             }
+            Summaraize(contents);
             Console.ReadKey();
            
         }
