@@ -12,7 +12,7 @@ namespace lab5masiv
     {
         static void Summaraize(char[] contens)
         {
-            int vowels = 0, consonants = 0, lines = 0;
+            int vowels = 0, consonants = 0, lines = 1;
             foreach (char current in contens)
             {
                 if (Char.IsLetter(current))
